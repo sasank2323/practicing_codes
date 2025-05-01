@@ -1,4 +1,4 @@
-package lists;
+package lists.NormalQuestions;
 
 import java.util.ArrayList;
 import java.util.List;
