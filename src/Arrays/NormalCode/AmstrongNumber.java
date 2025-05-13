@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.NormalCode;
 
 public class AmstrongNumber {
     static void amstrong(int r)
@@ -9,16 +9,13 @@ public class AmstrongNumber {
         int rrr=r;
         String str=String.valueOf(r);
         int length=str.length();
-        while(r>0)
-        {
+        while(r>0) {
             m=r%10;
             mul=(int) Math.pow(m,length);
             sum=sum+mul;
             r=r/10;
         }
-
-        if(sum==rrr)
-        {
+        if(sum==rrr) {
             System.out.println("yes it is amstrong   "+rrr);
         }
     }

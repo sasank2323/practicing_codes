@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.NormalCode;
 import java.util.*;
 public class SumOfNumbersInDigits {
     public static void son(int h)

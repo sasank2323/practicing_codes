@@ -9,5 +9,9 @@ public class Counting_noOfUpper_AND_noOFLower {
                 .filter(c-> Character.isLowerCase(c)).count();
         System.out.println("Number of Upper case characters: "+r);
         System.out.println("Number of Lower case characters: "+rr);
+
+//      you wan  s.chars() returns an IntStream of Unicode code points (ints), not characters.
+//                .boxed() would give you a Stream<Integer>, not Stream<Character>, \n
+//        which isn\'t what t when working with Character methods.
     }
 }

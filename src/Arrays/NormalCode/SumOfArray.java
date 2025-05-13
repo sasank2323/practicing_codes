@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.NormalCode;
 import java.util.*;
 public class SumOfArray {
     public static void main(String[] args)
