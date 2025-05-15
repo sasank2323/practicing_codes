@@ -17,8 +17,5 @@ public class listPlusStreams {
 
         int maxx=h.stream().max(Integer::compareTo).orElse(Integer.MIN_VALUE);
         System.out.println("Maximum value: "+maxx);
-
-
-
     }
 }
